@@ -31,7 +31,7 @@ The **main idea** is to find the plate, crop it, zoom it and apply easyOCR metho
 
 ![image](https://github.com/Azed1ne/Enhanced-ANPR-for-Algerian-plates/assets/123888749/6a931948-eccf-44ba-92ba-4fd2b3802195)
 
-More info can be found [here]([url](https://en.m.wikipedia.org/wiki/Vehicle_registration_plates_of_Algeria)https://en.m.wikipedia.org/wiki/Vehicle_registration_plates_of_Algeria) or [here]([url](https://www.autobip.com/ar/actualite_auto/%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA_%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9_%D9%84%D9%84%D9%88%D8%AD%D8%A7%D8%AA_%D8%AA%D8%B1%D9%82%D9%8A%D9%85_%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%A8%D8%A7%D8%AA_%D9%81%D9%8A_%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1/18660)https://www.autobip.com/ar/actualite_auto/%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA_%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9_%D9%84%D9%84%D9%88%D8%AD%D8%A7%D8%AA_%D8%AA%D8%B1%D9%82%D9%8A%D9%85_%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%A8%D8%A7%D8%AA_%D9%81%D9%8A_%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1/18660).
+More info can be found [here](https://en.m.wikipedia.org/wiki/Vehicle_registration_plates_of_Algeria) or [here](https://www.autobip.com/ar/actualite_auto/%D9%85%D9%88%D8%A7%D8%B5%D9%81%D8%A7%D8%AA_%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9_%D9%84%D9%84%D9%88%D8%AD%D8%A7%D8%AA_%D8%AA%D8%B1%D9%82%D9%8A%D9%85_%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%A8%D8%A7%D8%AA_%D9%81%D9%8A_%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1/18660).
 
 ## Requirements and limitations:
 - The image needs to be captured with a decent quality ( since we'll be zooming on the plate only ).
@@ -40,11 +40,13 @@ More info can be found [here]([url](https://en.m.wikipedia.org/wiki/Vehicle_regi
 - The plate shouldn't be tilted very much, it's preferable to have it completely horizontal.
 
 ## About the dataset:
-Most of the images are from this [repo]([url](https://github.com/mouadb0101/License_Plates_of_Algeria_Dataset)) and I've added some other public car images found on the internet.
+Most of the images are from this [repo](https://github.com/mouadb0101/License_Plates_of_Algeria_Dataset) and I've added some other public car images found on the internet.
 
 The dataset folder contains 2 subfolders:
 * **'yes/'**: contains images of cars that the script can detect their information.
 * **'no/'**: on the other hand, the cases where it failed to detect the license plate.
+
+Project idea inspiration from this [video](https://youtu.be/NApYP_5wlKY?si=x1vARYNGgxFETIij).
 
 
 
